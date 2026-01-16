@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: welcome
 author_profile: true
 ---
 
@@ -16,7 +17,7 @@ This site is a space for my work, projects, and writing.
 ## Featured Projects
 
 ### Artwork
-![Artwork](/assets/images/twshow.jpg)
+![Artwork](/assets/css/images/twshow.jpg)
 *Caption: A snapshot of Project 1 showcasing colors and composition.*
 
 This project explores color, texture, and form in interactive design.  
@@ -24,7 +25,7 @@ This project explores color, texture, and form in interactive design.
 ---
 
 ### Design Work
-![Design Work](/assets/images/bridgecover1.png)
+![Design Work](/assets/css/images/bridgecover1.png)
 *Caption: Mockup for a user interface project.*
 
 This project focuses on user experience and clean visual design.  
@@ -36,7 +37,7 @@ This project focuses on user experience and clean visual design.
 You can also show multiple images in a row:
 
 <div class="gallery">
-  <img src="/assets/images/bridge1.png" alt="Example 1">
-  <img src="/assets/images/bridge2.png" alt="Example 2">
-  <img src="/assets/images/bridgecover1.png" alt="Example 3">
+  <img src="/assets/css/images/bridge1.png" alt="Example 1">
+  <img src="/assets/css/images/bridge2.png" alt="Example 2">
+  <img src="/assets/css/images/bridgecover1.png" alt="Example 3">
 </div>
