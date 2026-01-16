@@ -19,21 +19,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio-site" # the subpath of your site, e.g. /blog
 url: "https://ocoec-25.github.io/portfolio-site/" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  ocoec-25
 
 author:
   name   : "Echo O'Connor"
-  avatar : "/assets/images/profile.jpg"
+#  avatar : "/assets/images/profile.jpg"
   bio    : "Artist & designer exploring human-centered design, craft, and storytelling."
 
 # Build settings
 markdown: kramdown
 
-theme: minima
-minimal_mistakes_skin: "air"
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
