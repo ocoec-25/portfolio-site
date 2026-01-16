@@ -1,0 +1,68 @@
+/* Fonts and basic reset */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fefefe;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+.site-header {
+  background-color: #007acc;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.site-header nav {
+  margin-top: 1rem;
+}
+
+.site-header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+.site-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main h1, main h2 {
+  color: #007acc;
+}
+
+main a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #555;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
