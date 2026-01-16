@@ -1,4 +1,4 @@
-/* Fonts and basic reset */
+/* Global Styles */
 body {
   font-family: 'Roboto', sans-serif;
   max-width: 900px;
@@ -9,10 +9,17 @@ body {
   color: #333;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #007acc;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 /* Header */
@@ -22,64 +29,23 @@ body {
   padding: 2rem 0;
   text-align: center;
 }
-
-.site-header h1 {
-  margin: 0;
-  font-weight: 700;
-}
-
-.site-header nav {
-  margin-top: 1rem;
-}
-
 .site-header nav a {
-  color: white;
-  text-decoration: none;
+  color: rgb(0, 0, 0);
   margin: 0 1rem;
-  font-weight: 500;
 }
 
-.site-header nav a:hover {
-  text-decoration: underline;
-}
-
-/* Main content */
-main h1, main h2 {
-  color: #007acc;
-}
-
-main a {
-  color: #007acc;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-main a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-.site-footer {
-  text-align: center;
-  background-color: #f0f0f0;
-  color: #555;
-  padding: 1rem 0;
-  margin-top: 2rem;
-  font-size: 0.9rem;
-}
-
-/* Keep this minimal — Minima theme styles handle the rest */
-
+/* Gallery Styles */
 .gallery {
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .gallery img {
   width: 30%;
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
