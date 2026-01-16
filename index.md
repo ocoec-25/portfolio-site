@@ -14,7 +14,7 @@ This site is a space for my work, projects, and writing.
 
 ---
 
-## Featured Projects
+# Featured Projects
 
 ### Artwork
 ![Artwork](/assets/images/twshow.jpg)
