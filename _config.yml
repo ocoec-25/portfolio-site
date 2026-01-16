@@ -31,7 +31,7 @@ author:
 # Build settings
 markdown: kramdown
 
-remote_theme: mmistakes/minimal-mistakes
+theme: minima
 minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
